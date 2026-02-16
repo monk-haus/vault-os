@@ -11,7 +11,7 @@ export default function NotFound() {
         <main className="min-h-screen w-full bg-[#f4f1ea] dark:bg-[#0a0a0a] flex flex-col items-center justify-center px-6 text-center relative overflow-hidden">
 
             <div className="absolute inset-0 opacity-[0.05] pointer-events-none"
-                style={{ backgroundImage: 'url("https://www.transparenttextures.com/patterns/stardust.png")' }}>
+                style={{ backgroundImage: 'radial-gradient(circle, #000 1px, transparent 1px)', backgroundSize: '24px 24px' }}>
             </div>
 
             <div className="absolute inset-0 opacity-[0.03] pointer-events-none"

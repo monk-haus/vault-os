@@ -32,7 +32,7 @@ export default function FooterCTA() {
             className="relative w-full min-h-[70vh] flex flex-col items-center justify-center bg-[#050505] text-white overflow-hidden px-6 pt-20 pb-20"
         >
 
-            <div className="absolute inset-0 opacity-[0.03] bg-[url('https://www.transparenttextures.com/patterns/stardust.png')]"></div>
+            <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: 'radial-gradient(circle, #fff 1px, transparent 1px)', backgroundSize: '24px 24px' }}></div>
 
             <div className="relative z-10 flex flex-col items-center text-center gap-12 max-w-5xl">
 
